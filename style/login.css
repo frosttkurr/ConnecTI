@@ -1,0 +1,65 @@
+* {
+    font-family: Roboto;
+}
+
+body {
+    overflow-x: hidden;
+    background-image: url(../images/bgti.jpg);
+    background-size: cover;
+}
+
+#logo-ti {
+    margin-left: 2%;
+}
+
+#login-key {
+    margin-top: 5px;
+    margin-right: 5%;
+}
+
+#login-key:hover {
+    cursor: pointer;
+}
+
+#welcome1 {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 28%;
+}
+
+.welcometext1 {
+    color: white;
+    font-size: 85px;
+    margin-bottom: 35px;
+    text-shadow: 4px 5px 3px rgb(0,0,0, 0.8);
+}
+
+.welcometext2 {
+    color: white;
+    font-size: 35px;
+    text-shadow: 4px 5px 3px rgb(0,0,0, 0.8);
+}
+
+.form-control {
+    width: 45%;
+}
+
+.btn {
+    color: white;
+    text-shadow: 1px 1px 1px rgb(0,0,0);
+    font-weight: bold;
+    width: 10%;
+    border-radius: 0.3cm;
+    box-shadow: 1px 1px 1px rgb(0,0,0, 0.5);
+}
+
+.footer {
+    margin-top: 5%;
+}
+
+footer {
+    color: #171717;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+ }

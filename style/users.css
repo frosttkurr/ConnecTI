@@ -1,0 +1,73 @@
+* {
+    font-family: Roboto;
+    color: #171717;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    overflow-x: hidden;
+    background-color: #D6D6D6;
+    background-size: cover;
+}
+
+#logo-ti {
+    margin-left: 2%;
+}
+
+.box-cover {
+    height: 180px;
+    width: 1080px;
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-profile {
+    height: 40px;
+    width: 35px;
+    float: right;
+    margin-right: 13px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.round-profile {
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    height: 165px;
+    width: 165px;
+    border-radius: 50cm;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+}
+
+.box-describe {
+    height: 110px;
+    border-radius: 0 0 15px 15px;
+    width: 1080px;
+    background-color: white;
+    overflow: hidden;
+}
+
+#sunting-profile {
+    position: absolute;
+    top: 190px;
+    right: 135px;
+    background-color: #785233;
+    width: 125px;
+    color: white;
+    border-radius: 25px;
+}
+
+.footer {
+    margin-top: 2%;
+}

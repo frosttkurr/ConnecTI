@@ -1,0 +1,63 @@
+* {
+    font-family: Roboto;
+    color: #171717;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    overflow-x: hidden;
+    background-color: #D6D6D6;
+    background-size: cover;
+}
+
+.box-profile {
+    height: 40px;
+    width: 35px;
+    float: right;
+    margin-right: 13px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#logo-ti {
+    margin-left: 2%;
+}
+
+#sunting-profile {
+    position: absolute;
+    top: 168px;
+    right: 135px;
+    background-color: #785233;
+    width: 125px;
+    color: white;
+    border-radius: 25px;
+}
+
+.btn {
+    padding: 7px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+}
+
+#upload {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.footer {
+    margin-top: 2%;
+}
+
+
+
